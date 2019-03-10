@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import xlrd, xlwt, os
 from xlutils.copy import copy
-from download import request
+# from download import request
 from bs4 import BeautifulSoup
 import time
 import platform
@@ -15,7 +15,7 @@ if system == 'Darwin':#mac
     originPath = os.path.abspath('.')
     xlsPath = os.path.join(originPath,'loadData.xls')
 elif system == 'Windows':
-    originPath = 'C:/Users/Administrator/Desktop/amzkeyword'
+    originPath = 'C:/Users/Administrator/Desktop/Amzgetcomments'
     xlsPath = os.path.join(originPath,'loadData.xls')
 
 
